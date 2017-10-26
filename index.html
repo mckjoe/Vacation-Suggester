@@ -10,10 +10,84 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
-        <h2>Vacation Suggestion Page</h2>
-        <h4>Let us plan your next Vacation!</h4>
+      <div id="page1">
+        <div class="well">
+          <h2>Vacation Suggestion Page</h2>
+          <h4>Let us plan your next Vacation!</h4>
+        </div>
+        <p>Please let us know a few things about yourself before we get started!</p>
+        <button id="enter-page" class="btn btn-success">Enter</button>
       </div>
+
+      <div id="page2">
+      <p>Just some basic info for our records!</p>
+        <form id="basic-info">
+          <div class="form-group">
+            <label for="name">Please enter your name:</label>
+            <input id="name" class="form-control" type="text" placeholder="First name only please!">
+          </div>
+          <div class="form-group">
+            <label for="born">Date of birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+          <br>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+
+      <div id="page3">
+        <h3>Hello there <span class="firstName"></span>!</h3>
+        <h5>Thank you for visiting our page.  We are commited to helping you find the vacation destination of your dreams.  We have relationships with tons of travel agents and airlines and hotels across the world, and we would like to use our friends and resources to help you find somewhere to visit!</h5>
+        <form id="questions">
+          <p>What kind of weather would you most like to spend your vacation in?<p>
+          <select class="form-control" id="weather">
+            <option value="0">Please select one</option>
+            <option value="1">Wow, I got out of the shower and was already sweaty</option>
+            <option value="2">It's like, basically a tropical storm out there</option>
+            <option value="3">All four seasons in one day keeps the mental health doctor away</option>
+            <option value="4">A delightful mix of some clouds and blue sky with very short bursts of turrential downpours</option>
+          </select>
+          <br>
+          <p>When it comes to travel distence, how far from home would you like to go?</p>
+          <select class="form-control" id="distance">
+            <option value="0">Please select one</option>
+            <option value="1">I want to be able to see my house</option>
+            <option value="2">I dont want to recognize anyone or anything/get me as far from here as is possible</option>
+            <option value="3">Let's stay in the United States</option>
+            <option value="4">Lets not go too far (I hate flying) but lets get some distance</option>
+          </select>
+          <br>
+          <p>What type of terrain would you like to see when you look around?<p>
+          <select class="form-control" id="terrain">
+            <option value="0">Please select one</option>
+            <option value="1">Sandy beaches</option>
+            <option value="2">Mountanous landscapes</option>
+            <option value="3">Snowy winter wonderland</option>
+            <option value="4">Middle of the forest</option>
+          </select>
+          <br>
+          <p>What language would you like to speak on vacation?</p>
+          <select class="form-control" id="language">
+            <option value="0">Please select one</option>
+            <option value="1">English</option>
+            <option value="2">Spanish</option>
+            <option value="3">French</option>
+            <option value="4">Who cares I'll make it work</option>
+          </select>
+          <br>
+          <p>How crowded would you like your vacation destination to be?</p>
+          <select class="form-control" id="population">
+            <option value="0">Please select one</option>
+            <option value="1">I dont want to see anybody</option>
+            <option value="2"> I dont mind a person or two</option>
+            <option value="3">Somewhere crowded where I can make new friends</option>
+            <option value="4">It isn't important to me</option>
+          </select>
+          <br>
+          <button type="submit" class="btn btn-success">Submit answers!</button>
+        </form>
+      </div>
+
     </div>
   </body>
 </html>
