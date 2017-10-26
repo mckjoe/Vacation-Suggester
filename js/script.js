@@ -23,65 +23,58 @@ $(document).ready(function() {
     var language = $("#language").val();
     var population = $("#population").val();
 
-    if (weather === "0") {
-      alert("oopsies! Please select an option from the dropdown menu!")
-    }  else if (weather === "1") {
+
+    if (weather === "1") {
       tostralia += 10
     } else if (weather === "2") {
       vivimarlostown += 10
     } else if (weather === "3") {
       tussia += 10
     } else if (weather === "4") {
-      salifornia
+      salifornia += 10
     }
 
-    if (distance === "0") {
-      alert("oopsies! Please select an option from the dropdown menu!")
-    }  else if (distance === "1") {
+    if (distance === "1") {
       tostralia += 10
     } else if (distance === "2") {
       vivimarlostown += 10
     } else if (distance === "3") {
       tussia += 10
     } else if (distance === "4") {
-      salifornia
+      salifornia += 10
     }
 
-    if (terrain === "0") {
-      alert("oopsies! Please select an option from the dropdown menu!")
-    }  else if (terrain === "1") {
+
+    if (terrain === "1") {
       tostralia += 10
     } else if (terrain === "2") {
       vivimarlostown += 10
     } else if (terrain === "3") {
       tussia += 10
     } else if (terrain === "4") {
-      salifornia
+      salifornia += 10
     }
 
-    if (language === "0") {
-      alert("oopsies! Please select an option from the dropdown menu!")
-    }  else if (language === "1") {
+    if (language === "1") {
       tostralia += 10
     } else if (language === "2") {
       vivimarlostown += 10
     } else if (language === "3") {
       tussia += 10
     } else if (language === "4") {
-      salifornia
+      salifornia += 10
     }
 
-    if (population === "0") {
-      alert("oopsies! Please select an option from the dropdown menu!")
-    }  else if (population === "1") {
+    if (population === "1") {
       tostralia += 10
     } else if (population === "2") {
       vivimarlostown += 10
     } else if (population === "3") {
       tussia += 10
     } else if (population === "4") {
-      salifornia
+      salifornia +=10
     }
+
 
     if (tostralia > vivimarlostown && tostralia > tussia && tostralia > salifornia) {
       $(".hider").hide();
@@ -95,6 +88,8 @@ $(document).ready(function() {
     } else if (salifornia > vivimarlostown && salifornia > tostralia && salifornia > tussia) {
       $(".hider").hide();
       $("#salifornia").show();
+    } else {
+      $("#vivimarlostown").show()
     }
   });
 });
