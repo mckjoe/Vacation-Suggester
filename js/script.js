@@ -82,9 +82,19 @@ $(document).ready(function() {
     } else if (population === "4") {
       salifornia
     }
-    console.log(salifornia);
-    console.log(vivimarlostown);
-    console.log(tostralia);
-    console.log(tussia);
+
+    if (tostralia > vivimarlostown && tostralia > tussia && tostralia > salifornia) {
+      $(".hider").hide();
+      $("#tostralia").show();
+    } else if (vivimarlostown > tostralia && vivimarlostown > tussia && vivimarlostown > salifornia) {
+      $(".hider").hide();
+      $("#vivimarlostown").show();
+    } else if (tussia > vivimarlostown && tussia > salifornia && tussia > tostralia) {
+      $(".hider").hide();
+      $("#tussia").show();
+    } else if (salifornia > vivimarlostown && salifornia > tostralia && salifornia > tussia) {
+      $(".hider").hide();
+      $("#salifornia").show();
+    }
   });
 });
