@@ -16,18 +16,75 @@ $(document).ready(function() {
     event.preventDefault();
   });
   $("#questions").submit(function(event) {
+    event.preventDefault();
     var weather = $("#weather").val();
     var distance = $("#distance").val();
     var terrain = $("#terrain").val();
     var language = $("#language").val();
     var population = $("#population").val();
-    event.preventDefault();
-    console.log(weather);
-    console.log(distance);
-    console.log(terrain);
-    console.log(language);
-    console.log(population);
 
+    if (weather === "0") {
+      alert("oopsies! Please select an option from the dropdown menu!")
+    }  else if (weather === "1") {
+      tostralia += 10
+    } else if (weather === "2") {
+      vivimarlostown += 10
+    } else if (weather === "3") {
+      tussia += 10
+    } else if (weather === "4") {
+      salifornia
+    }
 
+    if (distance === "0") {
+      alert("oopsies! Please select an option from the dropdown menu!")
+    }  else if (distance === "1") {
+      tostralia += 10
+    } else if (distance === "2") {
+      vivimarlostown += 10
+    } else if (distance === "3") {
+      tussia += 10
+    } else if (distance === "4") {
+      salifornia
+    }
+
+    if (terrain === "0") {
+      alert("oopsies! Please select an option from the dropdown menu!")
+    }  else if (terrain === "1") {
+      tostralia += 10
+    } else if (terrain === "2") {
+      vivimarlostown += 10
+    } else if (terrain === "3") {
+      tussia += 10
+    } else if (terrain === "4") {
+      salifornia
+    }
+
+    if (language === "0") {
+      alert("oopsies! Please select an option from the dropdown menu!")
+    }  else if (language === "1") {
+      tostralia += 10
+    } else if (language === "2") {
+      vivimarlostown += 10
+    } else if (language === "3") {
+      tussia += 10
+    } else if (language === "4") {
+      salifornia
+    }
+
+    if (population === "0") {
+      alert("oopsies! Please select an option from the dropdown menu!")
+    }  else if (population === "1") {
+      tostralia += 10
+    } else if (population === "2") {
+      vivimarlostown += 10
+    } else if (population === "3") {
+      tussia += 10
+    } else if (population === "4") {
+      salifornia
+    }
+    console.log(salifornia);
+    console.log(vivimarlostown);
+    console.log(tostralia);
+    console.log(tussia);
   });
 });
