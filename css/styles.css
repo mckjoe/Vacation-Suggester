@@ -24,10 +24,9 @@
 
 #salifornia {
   display: none;
-  color: #351f39;
   background-color: #f4E8c1;
   border: 5px solid #726A95;
-  padding: 15px;
+  padding: 150px;
   margin: 15px;
 }
 
@@ -36,16 +35,16 @@
   color: color: #351f39;
   background-color: #f4E8c1;
   border: 5px solid #726A95;
-  padding: 15px;
+  padding: 150px;
   margin: 15px;
 }
 
 #vivimarlostown {
   display: none;
-  color: #351f39;
+  color: color: #351f39;
   background-color: #f4E8c1;
   border: 5px solid #726A95;
-  padding: 15px;
+  padding: 150px;
   margin: 15px;
 }
 
@@ -54,7 +53,7 @@
   color: #351f39;
   background-color: #f4E8c1;
   border: 5px solid #726A95;
-  padding: 15px;
+  padding: 150px;
   margin: 15px;
 }
 
@@ -64,7 +63,7 @@ body {
 }
 img {
   border: 5px solid #726A95;
-  padding: 15px;
+  padding: 5px;
   margin: 15px;
-  background-color: #a0c1b8;
+  background-color: white;
 }
