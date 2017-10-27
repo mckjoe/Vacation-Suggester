@@ -10,7 +10,9 @@ $(document).ready(function() {
   });
   $("#basic-info").submit(function(e) {
     var nameInput = $("#name").val();
-    $(".firstName").text(nameInput)
+    var cakeInput = $("#cake").val();
+    $(".firstName").text(nameInput);
+    $(".cake").text(cakeInput);
     $("#page2").hide();
     $("#page3").fadeIn();
     event.preventDefault();
