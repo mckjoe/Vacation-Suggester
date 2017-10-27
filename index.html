@@ -16,25 +16,27 @@
           <h4>Let us plan your next Vacation!</h4>
         </div>
         <p>Please let us know a few things about yourself before we get started!</p>
-        <button id="enter-page" class="btn btn-success">Enter</button>
+        <button id="enter-page" class="btn btn-warning">Enter</button>
       </div>
-
       <div id="page2">
-      <p>Just some basic info for our records!</p>
-        <form id="basic-info">
-          <div class="form-group">
-            <label for="name">Please enter your name:</label>
-            <input id="name" class="form-control" type="text" placeholder="First name only please!">
+        <div class="panel panel-default">
+          <!-- <div class="panel-heading">Panel Heading</div> -->
+          <div class="panel-body"><em>Just some basic info for our records!<em>
+            <form id="basic-info">
+              <div class="form-group">
+                <label for="name">Please enter your name:</label>
+                <input id="name" class="form-control" type="text" placeholder="First name only please!">
+              </div>
+              <div class="form-group">
+                <label for="born">Date of birth:</label>
+                <input id="born" class="form-control" type="date">
+              </div>
+              <br>
+              <button type="submit" class="btn btn-warning">Submit</button>
+            </form>
           </div>
-          <div class="form-group">
-            <label for="born">Date of birth:</label>
-            <input id="born" class="form-control" type="date">
-          </div>
-          <br>
-          <button type="submit" class="btn btn-success">Submit</button>
-        </form>
+        </div>
       </div>
-
       <div id="page3" class="hider">
         <h3>Hello there <span class="firstName"></span>!</h3>
         <h5>Thank you for visiting our page.  We are commited to helping you find the vacation destination of your dreams.  We have relationships with tons of travel agents and airlines and hotels across the world, and we would like to use our friends and resources to help you find somewhere to visit!</h5>
@@ -84,7 +86,7 @@
             <option value="4">It isn't important to me</option>
           </select>
           <br>
-          <button type="submit" class="btn btn-success">Submit answers!</button>
+          <button type="submit" class="btn btn-warning">Submit answers!</button>
         </form>
       </div>
       <div id="tostralia" class="hider">
@@ -97,7 +99,7 @@
             <img width="200px" src="img/island2.jpg" alt="Da beach">
           </div>
           <div class="col-xs-4">
-              <img width="200px" src="img/island3.jpg" alt="Da beach">
+            <img width="200px" src="img/island3.jpg" alt="Da beach">
           </div>
         </div>
       </div>
@@ -129,7 +131,6 @@
           </div>
         </div>
       </div>
-      </div>
       <div id="salifornia" class="hider">
         <p>Hey <span class="firstName"></span>, look at you.  Based off of the informaion that you have provided us, we find it to be in your best interests to click this link and then to click the buy button on the page it takes you to.  Don't worry about looking into where you are going to end up, it's only like a couple grand for a plane ticket and when it's all said and done then you'll only really have spent like 20-30 thousand dollars on this entire package so what do you really have to lose?</p>
         <div class="row">
@@ -144,8 +145,6 @@
           </div>
         </div>
       </div>
-      </div>
-
     </div>
   </body>
 </html>

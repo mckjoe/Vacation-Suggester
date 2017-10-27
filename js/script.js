@@ -6,13 +6,13 @@ var vivimarlostown = 0;
 $(document).ready(function() {
   $("#enter-page").click(function() {
     $("#page1").hide();
-    $("#page2").show();
+    $("#page2").fadeIn();
   });
   $("#basic-info").submit(function(e) {
     var nameInput = $("#name").val();
     $(".firstName").text(nameInput)
     $("#page2").hide();
-    $("#page3").show();
+    $("#page3").fadeIn();
     event.preventDefault();
   });
   $("#questions").submit(function(event) {
@@ -78,18 +78,19 @@ $(document).ready(function() {
 
     if (tostralia > vivimarlostown && tostralia > tussia && tostralia > salifornia) {
       $(".hider").hide();
-      $("#tostralia").show();
+      $("#tostralia").fadeIn();
     } else if (vivimarlostown > tostralia && vivimarlostown > tussia && vivimarlostown > salifornia) {
       $(".hider").hide();
-      $("#vivimarlostown").show();
+      $("#vivimarlostown").fadeIn();
     } else if (tussia > vivimarlostown && tussia > salifornia && tussia > tostralia) {
       $(".hider").hide();
-      $("#tussia").show();
+      $("#tussia").fadeIn();
     } else if (salifornia > vivimarlostown && salifornia > tostralia && salifornia > tussia) {
       $(".hider").hide();
-      $("#salifornia").show();
+      $("#salifornia").fadeIn();
     } else {
-      $("#vivimarlostown").show()
+      $(".hider").hide();
+      $("#vivimarlostown").fadeIn()
     }
   });
 });
