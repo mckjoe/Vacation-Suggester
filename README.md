@@ -16,7 +16,7 @@ This app is designed to recieve a few different types of information from the us
 * _Depending on how fast or slow your computer is, just wait for the magic to happen_
 * _Click the enter button, then begin submitting information to be processed, sit back and let me work some magic for you._
 
-_That should cover any information you need to have to be able to view my page and its code as well as work on it I believe.  If you need or want more information or instruction, please contact me and that information is located a few sections down under the title "Support and Contact Details"_
+_If you would like to view the page on github pages, then go to https://mckjoe.github.io/vacation-planner .  That should cover any information you need to have to be able to view my page and its code as well as work on it I believe.  If you need or want more information or instruction, please contact me and that information is located a few sections down under the title "Support and Contact Details"_
 
 ## Known Bugs
 
@@ -24,7 +24,7 @@ _As far as what I can tell there are no known bugs.  Feel free to enter super pe
 
 ## Support and contact details
 
-_If you would lilke to contact me for any reason at all, again just page me and that number is available in the white pages.  I hope we can talk soon, feel free to throw a wrench in the gears as long as you promise to fix it before showing it to me_
+_If you would lilke to contact me for any reason at all, again just page me and that number is available in the white pages.  I hope we can talk soon, feel free to throw a wrench in the gears as long as you promise to fix it before showing it to me.  _
 
 ## Technologies Used
 
